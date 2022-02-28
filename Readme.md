@@ -2,7 +2,7 @@
 Criar estrutura de projeto [x]
    
 ferramentas utilizadas
-Prisma [x]
+Prisma [x] <br/>
 Typescript [x] 
 Bcrypt [x]
 JsonWebToken [x] 
