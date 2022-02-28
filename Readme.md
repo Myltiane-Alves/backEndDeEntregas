@@ -1,9 +1,17 @@
 ## RN ##
-Criar estrutura de projeto [
-   ferramentas utilizadas
-    Prisma, Typescript, Bcrypt, JsonWebToken, Express, Ts-node-dev
-]
-Criar tabela deliveryman []
+Criar estrutura de projeto [x]
+   
+ferramentas utilizadas
+Prisma [x]
+Typescript [x] 
+Bcrypt [x]
+JsonWebToken [x] 
+Express [x]
+Ts-node-dev [x]
+
+Criar tabela deliveryman [x]
+Criar tabela client [x]
+Criar tabela deliveries [x]
 Criar cadastro de client []
 Criar autenticação  []
 Criar cadastro deliveryman  []
