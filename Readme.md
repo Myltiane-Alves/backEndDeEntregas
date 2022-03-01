@@ -13,8 +13,8 @@ Criar tabela deliveryman [x]  <br/>
 Criar tabela client [x] <br/>
 Criar tabela deliveries [x]   <br/>
 Criar cadastro de client [x]   <br/>
-Criar autenticação  []  <br/>
-Criar cadastro deliveryman  []   <br/>
+Criar autenticação  [x]  <br/>
+Criar cadastro deliveryman  [x]   <br/>
 Criar cadastro de entregas  []   <br/>
 Criar busca de entregas  []   <br/>
 Criar busca de entregas sem deliveryman  []  <br/>
