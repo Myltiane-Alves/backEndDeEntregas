@@ -12,7 +12,7 @@ Ts-node-dev [x] <br/><br/>
 Criar tabela deliveryman [x]  <br/>
 Criar tabela client [x] <br/>
 Criar tabela deliveries [x]   <br/>
-Criar cadastro de client []   <br/>
+Criar cadastro de client [x]   <br/>
 Criar autenticação  []  <br/>
 Criar cadastro deliveryman  []   <br/>
 Criar cadastro de entregas  []   <br/>
