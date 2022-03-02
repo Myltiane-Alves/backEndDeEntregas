@@ -4,8 +4,10 @@ import { ensureAuthenticateDeliveryman } from './middlewares/ensureAuthenticateD
 import { AuthenticateClientController } from './modules/account/authenticateClient/AuthenticateClientController';
 import { AuthenticateDeliverymanController } from './modules/account/authenticateDeliveryman/AuthenticateDeliverymanController';
 import { CreateClientController } from './modules/clients/useCases/createClient/CreateClientController';
+import { FindAllDeliveriesController } from './modules/clients/useCases/deliveries/FindAllDeliveriesController';
 import { FindAllAvailableController } from './modules/deliveries/findAllAvailable/FindAllAvailableController';
 import { CreateDeliveryController } from './modules/deliveries/useCases/createDelivery/CreateDeliveryController';
+import { UpdateDeliverymanController } from './modules/deliveries/useCases/updateDeliveryman/UpdateDeliverymanController';
 import { CreateDeliverymanController } from './modules/deliveryman/useCases/createDeliveryman/CreateDeliverymanController';
 
 
@@ -18,6 +20,8 @@ const authenticateDeliverymanController = new AuthenticateDeliverymanController(
 
 const deliveryController = new CreateDeliveryController();
 const findAllAvailableController = new FindAllAvailableController();
+const updateDeliverymanController = new UpdateDeliverymanController();
+const findAllDeliveriesClient = new FindAllDeliveriesController();
 
 routes.post('/authenticate/', authenticateClientController.handle);
 routes.post('/deliveryman/autenticate', authenticateDeliverymanController.handle)
@@ -29,5 +33,19 @@ routes.post('/delivery',ensureAuthenticateClient,  deliveryController.handle);
 routes.get(
   '/delivery/available',
   ensureAuthenticateDeliveryman,
-  findAllAvailableController.handle)
+  findAllAvailableController.handle
+);
+
+routes.put(
+  '/delivery/updateDeliveryman/:id',
+  ensureAuthenticateDeliveryman,
+  updateDeliverymanController.handle
+);
+
+routes.get(
+  '/client/deliveries',
+  ensureAuthenticateClient,
+  findAllDeliveriesClient.handle
+);
+
 export { routes };

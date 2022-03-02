@@ -12,12 +12,14 @@ Ts-node-dev [x] <br/><br/>
 Criar tabela deliveryman [x]  <br/>
 Criar tabela client [x] <br/>
 Criar tabela deliveries [x]   <br/>
+Configurar express server [x]   <br/>
 Criar cadastro de client [x]   <br/>
 Criar autenticação  [x]  <br/>
 Criar cadastro deliveryman  [x]   <br/>
-Criar cadastro de entregas  []   <br/>
+Criar autenticação de deliveryman [x]  <br/>
+Criar cadastro de entregas  [x]   <br/>
 Criar busca de entregas  []   <br/>
-Criar busca de entregas sem deliveryman  []  <br/>
-Criar update de entregas  []  <br/>
+Criar busca de entregas sem deliveryman  [x]  <br/>
+Criar update de entregas  [x]  <br/>
 Criar busca de entregas do client []   <br/>
 Criar busca de entregas do deliveryman [] <br/>
