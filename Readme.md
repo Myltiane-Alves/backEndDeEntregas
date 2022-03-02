@@ -18,8 +18,8 @@ Criar autenticação  [x]  <br/>
 Criar cadastro deliveryman  [x]   <br/>
 Criar autenticação de deliveryman [x]  <br/>
 Criar cadastro de entregas  [x]   <br/>
-Criar busca de entregas  []   <br/>
+Criar busca de entregas  [x]   <br/>
 Criar busca de entregas sem deliveryman  [x]  <br/>
 Criar update de entregas  [x]  <br/>
-Criar busca de entregas do client []   <br/>
-Criar busca de entregas do deliveryman [] <br/>
+Criar busca de entregas do client [x]   <br/>
+Criar busca de entregas do deliveryman [x] <br/>
